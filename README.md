@@ -1,4 +1,4 @@
-# Druact API
+# Headless API
 
 ## Intro
 
@@ -6,19 +6,19 @@ This is a Drupal 8 module that will enable all modules and set up configuration
 that is required to create a simple decoupled website. To find out more please 
 visit this blog post:
 
-http://www.gorannikolovski.com/react-js-and-drupal-8-decoupled-website-part-1
+Coming Soon
 
 ## Demo
 
 To see fully functional demo visit the following website:
 
-http://druact.gorannikolovski.com
+Coming Soon
 
 ## Installation
 
-You can download Druact API module on the Github release page:
+You can download Headless API module on the Github release page:
 
-https://github.com/gnikolovski/druact_api/releases
+https://github.com/TheDoer/headless_drupal_api.git
 
 1. Composer (recommended):
 
@@ -29,7 +29,7 @@ need to add the VCS repository to your composer.json file. You need to add this:
 "repositories": [  
     {
         "type": "vcs",
-        "url":  "https://github.com/gnikolovski/druact_api"  
+        "url":  "https://github.com/TheDoer/headless_drupal_api"  
     }  
 ]
 ```
@@ -37,7 +37,7 @@ need to add the VCS repository to your composer.json file. You need to add this:
 Then you can run the following command to install it:
 
 ```
-composer require gnikolovski/druact_api
+composer require thedoer/headless_drupal_api
 ```
 
 2. Drush:
@@ -54,7 +54,7 @@ drush en druact_api -y
 
 To install the Druact API module, proceed in the usual way: download and unzip 
 it, then place it in the /modules directory for your site. Navigate to the 
-Extend page (admin/modules) and install Druact API.
+Extend page (admin/modules) and Headless Headless API.
 
 You also need to download the following required modules:
 
@@ -65,12 +65,11 @@ Contact Storage https://www.drupal.org/project/contact_storage
 
 ### AUTHOR
 
-Goran Nikolovski  
-Website: (http://www.gorannikolovski.com)  
-Drupal: (https://www.drupal.org/user/3451979)  
-Email: nikolovski84@gmail.com  
+Adonis Rumbwere  
+Website: (http://www.adonisrumbwere.com)   
+Email: adonis.rumbwere@gmail.com  
 
 Company: Studio Present, Subotica, Serbia  
-Website: (http://www.studiopresent.com)  
-Drupal: (https://www.drupal.org/studio-present)      
-Email: info@studiopresent.com
+Website: (http://www.3degrees.co.zw)  
+Drupal: (https://www.drupal.org/3degrees)      
+Email: info@3degrees.co.zw
