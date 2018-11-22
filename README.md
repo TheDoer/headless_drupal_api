@@ -37,7 +37,7 @@ need to add the VCS repository to your composer.json file. You need to add this:
 Then you can run the following command to install it:
 
 ```
-composer require thedoer/headless_drupal_api
+composer require TheDoer/headless_drupal_api
 ```
 
 2. Drush:
@@ -52,7 +52,7 @@ drush en druact_api -y
 
 3. Manual installation
 
-To install the Druact API module, proceed in the usual way: download and unzip 
+To install the Headless API module, proceed in the usual way: download and unzip 
 it, then place it in the /modules directory for your site. Navigate to the 
 Extend page (admin/modules) and Headless Headless API.
 
